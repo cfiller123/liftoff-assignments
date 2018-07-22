@@ -7,11 +7,27 @@ For this assignment, you will submit a high-level outline of your project. This 
 ## Submission Instructions
 
 ### Overview
-Include overview here
+For the past few decades, court watchers have observed proceedings in criminal courts to determine disparities and provide accountability to judges’ actions. Until recently, all data was collected in narrative form on paper and in the past few years it has moved to entering information in Excel and other spreadsheet software. 
+
+My capstone is an app that allows volunteers and staff to add, edit, and review court watching data in real time. It allows individuals to query information regardless of where they are, provide validation to data, and do basic analyses (basic aggregation, counts, and trends over time) and display them in a real-time dashboard. It will speed up the process around the country for court watch programs and provide added capacity to smaller court watch programs.
+
 ### Features
-Include Features here
+1. User login with different types of users with different permissions: Volunteers can add data and edit data associated with their own account. They can’t see any other users’ data nor delete anything; Managers can review all volunteer data and edit and delete all data.
+2. User-determined fields and field types (int vs string) and constraints (lengths). Entered data is validated.
+3. Managers can create new objects (judges).
+4. Have a dashboard page for each judge and overall court that can show trends and basic analyses (e.g., sums, averages).
+
 ### Technologies
-Include Technologies here
+1. Java
+2. MySQL
+3. SpringBoot
+4. Thymeleaf
+5. JavaScript and jQuery
+6. Flot
 
 ### What I'll Have to Learn
-Include what you will need to learn here
+How to allow name and put constraints around and field (e.g., name a field and assign it a type like integer or string);
+JavaScript, jQuery, and the Flot library.
+
+### Trello Project Tracking
+https://trello.com/b/IaHImfFz/icourtwatch
